@@ -90,6 +90,9 @@ footer {
     flex-direction: column;
     justify-content: center;
 }
+.footer_contact img {
+    width: 30%;
+}
 .footer_map {
     width: 50vw;
     height: 100%;
