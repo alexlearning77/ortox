@@ -18,8 +18,23 @@
 .hero {
     height: 95vh;
     width: 100%;
-    background-image: url("pictures/MAT_8119.JPG");
+    background-image: url('pictures/MAT_8119.JPG');
+    background-color: var(--main-color-white);
     background-size: cover;
     background-position: center; 
-    background-color: var(--main-color-white);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+@media (max-width: 25rem) {
+    .hero nav {
+        position: fixed;
+        inset: 0 30% 0 0;
+        background-color: var(--main-color-white);
+    }
 }
