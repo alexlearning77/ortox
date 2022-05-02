@@ -5,6 +5,7 @@
     font-size: 16px;
     letter-spacing: 2px;
     text-decoration: none;
+    scroll-behavior: smooth;
     font-family: 'Raleway', sans-serif; 
 }
 
@@ -21,17 +22,21 @@ header {
 }
 header ul {
     list-style: none;
-    width: 70%;
+    max-width: 60%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
 }
 header li {
-    padding: 10px 30px;
+    padding: 10px 40px 10px 0;
+    margin-right: 20px;
     color: white;
     font-size: 0.6rem;
 }
-header a:active, a:visited {
+header a {
+    border-bottom: 1px solid rgba(66, 66, 66, 0);
+    margin-right: 20px;
+}
+header a:active, a:visited, a:hover {
     border-bottom: 1px solid white;
 }
 
@@ -51,7 +56,6 @@ header a:active, a:visited {
     margin-left: 25vw;
     text-align: center;
     padding: 20px;
-    border: 1px solid red;;
 }
 .logo_header_text h1 {
     font-weight: 200;
