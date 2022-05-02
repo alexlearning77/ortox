@@ -5,9 +5,68 @@
     font-size: 16px;
     letter-spacing: 2px;
     text-decoration: none;
+    list-style: none;
     scroll-behavior: smooth;
     font-family: 'Raleway', sans-serif; 
+    --main-color-grey: #666;
+    --main-color-greyish: #808080;
+    --main-color-dark: #000;
+    --main-color-white: #fff;
+    --main-color-blue: #00c2da;
 }
+
+.hero {
+    height: 95vh;
+    width: 100%;
+    background-image: url("pictures/MAT_8119.JPG");
+    background-color: var(--main-color-white);
+    background-size: cover;
+    background-position: center; 
+}
+.hero header {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 20vh;
+}
+.hero header ul {
+    display: flex;
+    flex-direction: row;
+}
+nav li {
+    min-width: 13rem;
+    font-size: 0.75rem;
+    padding: 1.5rem;
+    color: var(--main-color-white);
+    background-color: rgba(255, 255, 255, 0.6);
+
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+@media (max-width: 30rem) {
+    .hero header ul {
+        flex-direction: column;
+        width: 75vw;
+    }
+    .hero header ul li  {
+        color: var(--main-color-grey);
+    }
+    .hero header ul li:hover, li:active, li:visited {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
