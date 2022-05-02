@@ -81,7 +81,7 @@ footer {
     background-color: black;
     display: flex;
     flex-direction: row;
-
+    color: #666;
 }
 .footer_contact {
     width: 50vw;
