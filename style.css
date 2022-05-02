@@ -22,6 +22,7 @@
     background-color: var(--main-color-white);
     background-size: cover;
     background-position: center; 
+    background-attachment: fixed;
 }
 .hero header {
     margin: 0 auto;
