@@ -25,16 +25,28 @@
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
+    inset: 0 30% 0 0;
+    background-color: var(--main-color-white);
+    opacity: 0.7;
+    color: var(--main-color-grey);
+    padding: 1rem;
 }
 
+nav ul {
+    display: flex;
+    flex-direction: column;
+}
 
+nav a {
+    margin: 0.5rem 0;
+}
+
+nav a:hover, a:visited, a:active {
+    text-decoration: underline;
+}
 
 @media (max-width: 25rem) {
     .hero nav {
         position: fixed;
-        inset: 0 30% 0 0;
-        background-color: var(--main-color-white);
     }
 }
