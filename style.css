@@ -76,7 +76,7 @@ header a:active, a:visited, a:hover {
     text-align: center;
 }
 .action_icons {
-    position: fixed;
+    position: absolute;
     z-index: 2;
     right: 0;
     width: 7vw;
@@ -89,6 +89,12 @@ header a:active, a:visited, a:hover {
     text-decoration: none;
     border: none;
 }
+.rendgen_crta {
+    width: 35%;
+    position: absolute;
+    
+    z-index: 3;
+}
 
 /* rendgen */
 
@@ -98,6 +104,39 @@ header a:active, a:visited, a:hover {
     display: flex;
     flex-direction: column;
     justify-content: end;
+}
+.rendgen_white {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.white {
+    width: 15%;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 30px;
+}
+.white h2 {
+    margin: 30px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.white p {
+    font-size: 0.7rem;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 200%;
+    color: #808080;
+}
+.rendgen_white img {
+    width: 4wh;
+    height: 4vw;
+    margin: 20px;
 }
 .rendgen_black {
     background-color: black;
