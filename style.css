@@ -29,21 +29,15 @@
     background-position: center; 
 }
 
-nav {
-    inset: 0 30% 0 0;
-    background-color: var(--main-color-greyish);
-    opacity: 0.7;
-    padding: min(20vh, 2rem);
-    max-height: 95vh;
-}
 
-/* .mobile_nav_toggle {
+
+.mobile_nav_toggle {
     display: none;
-} */
+}
 
 nav ul {
     flex-direction: column;
-    margin: 2rem 0;
+    margin: 3rem 0;
 }
 
 nav li {
@@ -59,18 +53,34 @@ nav a:hover, a:visited, a:active {
 }
 
 @media (max-width: 25rem) {
+
     nav {
+        inset: 0 30% 0 0;
+        background-color: var(--main-color-greyish);
         position: fixed;
+        opacity: 0.7;
+        padding: min(20vh, 2rem);
+        max-height: 95vh;
+        transform: translateX(-100%);
+    }
+    .prim_nav[data-visible="true"] {
+        transform: translateX(50%);
     }
     .mobile_nav_toggle {
-        background: url('pictures/bulb.svg';
+        display: block;
+        background-image: url('pictures/menu_icon.svg');
+        background-size: contain;
         background-repeat: no-repeat;
+        background-color: transparent;
         position: absolute;
         z-index: 999;
-        width: 3rem;
+        width: 2rem;
         border: 0;
         aspect-ratio: 1;
         top: 2rem;
         left: 2rem;
+    }
+    .mobile_nav_toggle[aria-expanded='true'] {
+        background-image: url('pictures/x-symbol-svgrepo-com.svg');
     }
 }

@@ -8,22 +8,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Raleway:wght@200;400;600;700&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="main.js" defer></script>
     <title>Ortox</title>
 </head>
 <body>
    <header class="hero flex" id="hero">
-           <nav>
-               <button class="mobile_nav_toggle" aria-controls="nav_top" aria-expanded="false"></button>
-               <ul class="flex" id="nav_top">
-                   <li><a href="#hero">ORTOX</a></li>
-                   <li><a href="#rendgen">RENDGEN</a></li>
-                   <li><a href="#usluge">USLUGE</a></li>
-                   <li><a href="#iskustva">ISKUSTVA</a></li>
-                   <li><a href="#footer">KONTAKT</a></li>
-                   <li><a href="#">HR</a></li>
-               </ul>
-           </nav>
+            <button class="mobile_nav_toggle" id="mobile_nav_toggle" aria-controls="prim_nav" aria-expanded="false"></button>
+            <nav id="prim_nav" data-visible="false">
+                <ul class="flex" id="nav_top">
+                    <li><a href="#hero">ORTOX</a></li>
+                    <li><a href="#rendgen">RENDGEN</a></li>
+                    <li><a href="#usluge">USLUGE</a></li>
+                    <li><a href="#iskustva">ISKUSTVA</a></li>
+                    <li><a href="#footer">KONTAKT</a></li>
+                    <li><a href="#">HR</a></li>
+                </ul>
+            </nav>
    </header>
 
    <div id="rendgen"></div>
