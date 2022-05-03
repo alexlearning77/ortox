@@ -1,1 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 245.02"><defs><style>.cls-1{fill:#00b8d1;}</style></defs><title>crta</title><g id="Layer_8" data-name="Layer 8"><path class="cls-1" d="M269.51,0,300,40,30.49,245.06,0,205.12Z" transform="translate(0 -0.04)"/></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 300 245.05999"
+   version="1.1"
+   id="svg278"
+   sodipodi:docname="crta.svg"
+   width="300"
+   height="245.06"
+   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview280"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="2.5508121"
+     inkscape:cx="149.95224"
+     inkscape:cy="122.51"
+     inkscape:window-width="1296"
+     inkscape:window-height="847"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg278" />
+  <defs
+     id="defs271">
+    <style
+       id="style269">.cls-1{fill:#00b8d1;}</style>
+  </defs>
+  <title
+     id="title273">crta</title>
+  <g
+     id="Layer_8"
+     data-name="Layer 8"
+     transform="translate(0,0.04)">
+    <path
+       class="cls-1"
+       d="M 269.51,0 300,40 30.49,245.06 0,205.12 Z"
+       transform="translate(0,-0.04)"
+       id="path275" />
+  </g>
+</svg>
