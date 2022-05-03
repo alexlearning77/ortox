@@ -7,7 +7,6 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
-    overflow: hidden;
     font-family: 'Raleway', sans-serif; 
     --main-color-grey: #666;
     --main-color-greyish: #808080;
@@ -20,7 +19,7 @@
     display: flex;
     gap: var(--gap, 1rem);
 }
-
+/* ----- hero section ----- */
 .hero {
     height: 95vh;
     width: 100%;
@@ -38,6 +37,7 @@ nav {
 }
 
 .mobile_nav_toggle {
+    position: fixed;
     display: none;
 }
 
@@ -136,8 +136,59 @@ nav li:hover, li:active {
         transform: translateY(50%);
     }
 }
+/* ----- rendgen section ----- */
+#rendgen {
+    width: 100%;
+    min-height: 200vh;
+}
 
+.white {
+    min-height: 50vh;
+    width: 100%;
+    border: 1px solid red;
+}
+.line_parallax {
+    width: 30vw;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.white_wrapper {
 
+}
+.white_wrapper div {
+    min-width: 300px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.white_wrapper img {
+    max-width: 15%;
+    margin: 10vw auto;
+}
+.white_wrapper h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin-bottom: 5vh;
+    color: var(--main-color-grey);
+}
+.white_wrapper p {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+.black {
+    min-height: 150vh;
+    width: 100%;
+    border: 1px solid blue;
+}
+
+/* -----***** Mobile version adjustments ****----- */
 @media (max-width: 30rem) {
 
     .action_icons {
@@ -151,6 +202,7 @@ nav li:hover, li:active {
         position: fixed;
         inset: 0 30% 0 0;
         background-color: var(--main-color-greyish);
+        overflow: hidden;
         position: fixed;
         opacity: 0.7;
         padding: min(20vh, 2rem);
@@ -179,7 +231,6 @@ nav li:hover, li:active {
         background-size: contain;
         background-repeat: no-repeat;
         background-color: transparent;
-        position: absolute;
         z-index: 999;
         width: 2rem;
         border: 0;

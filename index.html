@@ -12,6 +12,8 @@
     <title>Ortox</title>
 </head>
 <body>
+    <!-- Header section with nav, logo, small text, call to action
+        and moving arrow animation -->
    <header class="hero flex" id="hero">
             <button class="mobile_nav_toggle" id="mobile_nav_toggle" aria-controls="prim_nav" aria-expanded="false"></button>
             <nav id="prim_nav" data-visible="false">
@@ -42,11 +44,38 @@
             </div>
    </header>
 
-   <div id="rendgen"></div>
-   <div id="usluge"></div>
-   <div id="iskustva"></div>
-   <div id="galerija"></div>
-   <div id="footer"></div>
+    <!-- Rendgen section with info section, odd shaped rendgen part,
+        two parallax elements on both sides, and small list with text -->
+    <div id="rendgen">
+        <section class="white">
+            <div class="line_parallax">
+                <img src="pictures/crta.svg" alt="">
+            </div>
+            <div class="white_wrapper">
+                <div>
+                    <img src="pictures/smiley.svg" alt="smiley face icon">
+                    <h2>OPUŠTENO</h2>
+                    <p>Prepustite se našem stručnom, iskusnom i komunikativnom timu.</p>
+                </div>
+                <div>
+                    <img src="pictures/glwguy.svg" alt="glowing guy icon">
+                    <h2>SIGURNO</h2>
+                    <p>Tijekom snimanja, pulsni generator dopušta samo minimalnu izloženost pacijenta zračenju.</p>
+                </div>
+                <div>
+                    <img src="pictures/sat.svg" alt="clock icon">
+                    <h2>BRZO</h2>
+                    <p>Dok ste naručili espresso u lokalu do nas, vaše snimke su ekspresno gotove.</p>
+                </div>
+            </div>
+        </section>
+        <section class="black"></section>
+    </div>
+
+    <div id="usluge"></div>
+    <div id="iskustva"></div>
+    <div id="galerija"></div>
+    <div id="footer"></div>
 </body>
 </html>
 
@@ -67,42 +96,9 @@
 
 
 <!-- 
-        <header>
-        <ul>
-            <a href="#">
-                <li>ORTOX</li>
-            </a>
-            <a href="#">
-                <li>RENDGEN</li>
-            </a>
-            <a href="#">
-                <li>USLUGE</li>
-            </a>
-            <a href="">
-                <li>ISKUSTVA</li>
-            </a>
-            <a href="#footer_contact">
-                <li>KONTAKT</li>
-            </a>
-            <a href="#">
-                <li style="color: #575757;">HR</li>
-            </a>
-        </ul>
-    </header>
+
     <main>
-    <div class="hero">
-        <div class="logo_header_text">
-            <img class="logo" src="pictures/ortox_logo.svg" alt="ortox_logo">
-            <h1>The Rendgen.</h1>
-            <p>Najmodernija digitalna tehnologija, stručan tim, te funkcionalan<br>
-            i ugodan ambijent, idealna su podloga za sve vaše pretrage.<br>
-            Puno je rendgena ali samo je jedan - The Rendgen.</p>
-        </div>
-        <div class="action_icons">
-            <a href="tel:+385994645364"><img src="pictures/tel.svg" alt="ikona telefona"></a>
-            <a href="mailto:info@ortox.hr"><img src="pictures/email.svg" alt="ikona emaila"></a>
-        </div>
-    </div>
+
 <div class="rendgen">
     <div class="rendgen_crta">
         <img src="pictures/crta.svg" alt="parallax efect kosa crta">
